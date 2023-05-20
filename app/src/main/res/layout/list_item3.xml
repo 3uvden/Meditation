@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Медитация «осознание тела»
+В нашем теле происходит тысячи химических процессов, но мы их не замечаем. Осознание своего тела, ощущение его от макушки до кончиков пальцев на ногах — это еще один из прекрасных методов релаксации и концентрации внимания. Существует единственный момент, о котором вы должны знать — если поза очень удобная, вы просто можете заснуть :)"
+        android:textColor="#C0FCD8"
+        android:textSize="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/method"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:text="Метод:
+
+1. Сядьте или лягте в удобную для вас позицию. Если сидите, не забывайте держать спину прямо!
+2. Дышите глубоко. Представьте себе, как напряжение покидает ваше тело с каждым выдохом. Если вас отвлекают какие-либо неприятные ощущения в вашем теле, постарайтесь найти такую позицию, в которой вы сможете полностью расслабиться.
+3. Перенесите свое внимание на кончики пальцев своих ног, сосредоточьтесь на малейших ощущениях, которые возникают в том месте. Представьте себе, как вы направляете свое дыхания к пальцам, наполняя их ощущением тепла и энергии.
+4. Когда эта зона полностью расслабится, направьте ваше внимание вверх по телу через колени, руки, позвоночник, лицо — прямиком к верхней части головы (макушке).
+5. Почувствуйте тепло, расслабление и спокойствие, которое полностью окутывает ваше тело."
+        android:textColor="#C0FCD8"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Медитация со свечами
+Этим вы вряд ли сможете заняться в офисе, так что лучше опробуйте этот метод дома. В основе любой медитации лежит умение концентрировать свое внимание на объекте. Наше тело и сознание полностью расслаблено, но при этом мы сконцентрированы на определенном предмете. Это довольно сложно, если учесть, что в наше время многозадачности наше сознание только и делает, что переключается в короткий промежуток времени между несколькими задачами. Некоторые умудряются делать их практически одновременно. Но как уже не один раз было замечено, что успешное выполнение задания заключается в отсечении всего лишнего и концентрации на конкретной цели. В этом нам и поможет практика медитации со свечами."
+        android:textColor="#C0FCD8"
+        android:textSize="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/method"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:text="Метод:
+
+1. Выключите все источники света (если это вечер) или занавесьте окна шторами.
+2. Сядьте в удобную позицию, держа спину прямо.
+3. Зажгите свечу и поставьте ее на уровне ваших глаз на расстоянии вытянутой руки.
+4. Сосредоточьте свой взгляд на кончике пламени свечи, стараясь при этом моргать как можно реже. При выполнении этой техники ваши глаза могут начать слезиться, но это хорошо (одна из причин, по которой данная техника медитации помогает улучшить зрение).
+5. Позвольте пламени свечи заполнить ваше сознание. Если в вашу голову начнут лезть отвлекающие мысли, постарайтесь снова сосредоточиться на пламени свечи.
+6.Через несколько минут закройте глаза и сосредоточьтесь на изображении мерцающего и танцующего пламени свечи в вашем сознании.
+7. Откройте глаза и сделайте несколько глубоких вдохов."
+        android:textColor="#C0FCD8"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

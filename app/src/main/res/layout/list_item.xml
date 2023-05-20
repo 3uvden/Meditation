@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Дыхание «один-четыре-два»
+Глубокое дыхание — один из самых простых и эффективных техник, которая доступна не только тем, кто давно практикует, но и новичкам."
+        android:textColor="#C0FCD8"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/method"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:text="Метод:
+
+1. Найдите приятное тихое место, где вас никто не побеспокоит 10-15 минут.
+2. Сядьте в удобную позу, обязательно держа спину прямо. Это может быть поза ноги по-турецки на полу, а может быть и удобный стул, но при этом ноги должны обязательно стоять на земле полной ступней.
+3. Закройте глаза и положите руки на колени ладонями вверх.
+4. Несколько минут просто наблюдайте за вашим дыханием. Осознайте и прочувствуйте, как воздух проходит через ваши ноздри и горло. Почувствуйте, как во время дыхания поднимается и опускается ваша грудная клетка. Обратите внимание на то, как напряженность мягко покидает ваше тело вместе с выдыхаемым воздухом через рот.
+5. Когда вы почувствовали, что ваше тело расслабилось, измените ритм вашего дыхания. Сделайте глубокий вдох на счет «один», затем задержите ваше дыхание на четыре секунды, и выдыхайте медленно на счет «два».
+6. Продолжайте дышать по методу «один-четыре-две», сосредоточив свое внимание на дыхании, в течении 10 минут.
+
+Как вариант, вы можете делать это под специальную медитативную музыку со звоночками через определенный интервал времени. Таким образом вы сможете отслеживать время вашей медитации более спокойным и приятным образом."
+        android:textColor="#C0FCD8"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
